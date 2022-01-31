@@ -1,0 +1,173 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #7b0738;
+  display: flex;
+  align-items: center;
+}
+nav .logo {
+  height: 100%;
+}
+nav .logo img {
+  height: 90%;
+}
+nav .navigation {
+  padding-right: 50px;
+  margin-left: auto;
+}
+nav .navigation a {
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+}
+* {
+  margin: 0;
+}
+html {
+  background-color: #bc2b62;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: Roboto;
+}
+h3 {
+  font-size: medium;
+}
+#wrapper {
+  width: 100%;
+}
+.splash {
+  height: 500px;
+  background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
+  background-size: cover;
+}
+.splash .splashContent {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: rgba(89, 72, 150, 0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.full {
+  min-height: 200px;
+  background-color: #aaabfd;
+  color: black;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 600px) {
+  .full {
+    padding: 50px 100px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .full {
+    padding: 50px 150px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .full {
+    padding: 50px 200px;
+  }
+}
+.content {
+  min-height: 300px;
+  background-color: #594896;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+@media screen and (min-width: 1000px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px 50px;
+  }
+}
+.content .box {
+  width: 350px;
+  height: 300px;
+  border-radius: 8px;
+  background-color: #aaabfd;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 1000px) {
+  .content .box {
+    padding: 15px;
+    padding-bottom: 25px;
+    margin: 10px;
+  }
+}
+.content .box .imgBox {
+  border: 3px white solid;
+  border-radius: 10px;
+  width: 90%;
+  height: 250px;
+  overflow: hidden;
+}
+.imgClip1 {
+  clip-path: inset(0px 55px 550px 0px round 10px);
+}
+.imgClip2 {
+  clip-path: inset(0px 147px 531px 50px round 10px);
+}
+.imgClip3 {
+  clip-path: inset(0px 55px 293px 0px round 10px);
+}
+.imgClip4 {
+  clip-path: inset(0px 55px 443px 10px round 10px);
+}
+.imgClip5 {
+  clip-path: inset(0px 140px 696px 0px round 10px);
+}
+footer {
+  width: 100%;
+  min-height: 60px;
+  background-color: #7b0738;
+}
+footer .links {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+footer .links a {
+  color: white;
+  text-decoration: none;
+}
+footer .copyright {
+  color: white;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
